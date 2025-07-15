@@ -21,15 +21,36 @@ This repository contains a complete educational resource for learning ethical ha
 hacking/
 ├── README.md                           # This file - project overview and guide
 ├── ethical_hacking_guide.md            # Main comprehensive guide (12 major topics)
-└── detailed_notes/                     # In-depth technical implementations
+├── cryptography/                       # 🔐 Complete cryptography mastery guide
+│   ├── README.md                       # Cryptography guide overview
+│   ├── detailed_notes/                 # 12 comprehensive cryptography modules
+│   │   ├── 01_introduction_detailed.md        # Foundations & history
+│   │   ├── 02_legal_ethics_detailed.md        # Legal frameworks & ethics
+│   │   ├── 03_core_concepts_detailed.md       # Mathematical foundations
+│   │   ├── 04_reconnaissance_detailed.md      # Classical cryptography
+│   │   ├── 05_network_security_detailed.md    # Symmetric cryptography
+│   │   ├── 06_web_security_detailed.md        # Asymmetric cryptography
+│   │   ├── 07_system_security_detailed.md     # Hash functions & signatures
+│   │   ├── 08_cryptography_detailed.md        # Protocols & implementation
+│   │   ├── 09_social_engineering_detailed.md  # Cryptanalysis & attacks
+│   │   ├── 10_tools_techniques_detailed.md    # Quantum cryptography
+│   │   ├── 11_defensive_strategies_detailed.md # Side-channel attacks
+│   │   └── 12_career_paths_detailed.md        # Applied cryptography
+│   ├── practical_examples/             # Multi-language implementations
+│   │   ├── python/                     # Complete Python crypto library
+│   │   ├── c/                         # Low-level C implementations
+│   │   ├── javascript/                # Web cryptography examples
+│   │   └── rust/                      # Memory-safe implementations
+│   └── tools_and_resources/           # Professional crypto resources
+│       ├── analysis_tools.md          # Cryptanalysis tools guide
+│       ├── libraries.md               # Cryptographic libraries
+│       └── references.md              # Academic papers & standards
+└── detailed_notes/                     # General cybersecurity modules
     ├── 01_introduction_detailed.md     # Legal frameworks & ethics
     ├── 02_reconnaissance_detailed.md   # Information gathering techniques
     ├── 03_network_security_detailed.md # Network attacks & defenses
     ├── 04_web_security_detailed.md     # Web application security
     ├── 05_system_security_detailed.md  # Operating system security
-    ├── 06_cryptography_detailed.md     # Cryptographic implementations
-    ├── 07_system_security_detailed.md  # Advanced system security
-    ├── 08_cryptography_detailed.md     # Advanced cryptography
     ├── 09_social_engineering_detailed.md # Social engineering & HUMINT
     ├── 10_tools_techniques_detailed.md   # Security tools & automation
     ├── 11_defensive_strategies_detailed.md # Blue team operations
@@ -43,9 +64,10 @@ hacking/
 
 1. **Start Here**: Read `ethical_hacking_guide.md` sections 1-3
 2. **Deep Dive**: Study `01_introduction_detailed.md` for legal/ethical framework
-3. **Hands-On**: Set up home lab environment
-4. **Practice**: Basic network scanning and reconnaissance
-5. **Certification**: CompTIA Security+ or Network+
+3. **Cryptography**: Read `cryptography/README.md` for complete cryptographic education
+4. **Hands-On**: Set up home lab environment
+5. **Practice**: Basic network scanning and reconnaissance
+6. **Certification**: CompTIA Security+ or Network+
 
 **Prerequisites**: Basic computer literacy, willingness to learn
 
@@ -81,7 +103,7 @@ Comprehensive overview covering 12 major cybersecurity domains:
 3. **Network Security** - Network attacks and defense
 4. **Web Application Security** - Web vulnerabilities and testing
 5. **System Security** - Operating system security
-6. **Cryptography** - Encryption and cryptographic attacks
+6. **Cryptography** - Complete cryptographic mastery (see `cryptography/` directory)
 7. **Social Engineering** - Human-based attacks and psychology
 8. **Tools and Techniques** - Security tools and automation
 9. **Defensive Strategies** - Blue team and SOC operations
@@ -89,12 +111,13 @@ Comprehensive overview covering 12 major cybersecurity domains:
 11. **Career Paths** - Professional development guidance
 12. **Emerging Threats** - Latest trends and technologies
 
-### Detailed Technical Notes (`detailed_notes/`)
-In-depth implementations with code examples:
+### Detailed Technical Notes
+**General Cybersecurity** (`detailed_notes/`) and **Complete Cryptography** (`cryptography/`):
 
-- **Practical Code**: Working implementations in Python, Bash, PowerShell
+- **Practical Code**: Working implementations in Python, Bash, PowerShell, C, JavaScript, Rust
 - **Real Scenarios**: Actual attack and defense techniques
 - **Tool Mastery**: Advanced usage of security tools
+- **Cryptographic Mastery**: Complete theoretical and practical cryptography education
 - **Career Guidance**: Professional development and certification paths
 
 ## 🛠️ Prerequisites & Setup
@@ -147,22 +170,22 @@ pip3 install python-nmap netaddr ipaddress
 
 ### Part-Time Study (10 hours/week)
 ```
-Month 1-2:   Fundamentals & Setup
-Month 3-4:   Reconnaissance & Network Security
-Month 5-6:   Web Security & System Security
-Month 7-8:   Cryptography & Social Engineering
-Month 9-10:  Tools & Defensive Strategies
-Month 11-12: Career Development & Specialization
+Month 1-2:   Fundamentals & Setup + Cryptography Basics
+Month 3-4:   Reconnaissance & Network Security + Symmetric Crypto
+Month 5-6:   Web Security & System Security + Asymmetric Crypto
+Month 7-8:   Advanced Cryptography & Social Engineering
+Month 9-10:  Tools & Defensive Strategies + Cryptanalysis
+Month 11-12: Career Development & Specialization + Quantum Crypto
 ```
 
 ### Full-Time Study (40 hours/week)
 ```
-Week 1-2:   Fundamentals, Lab Setup, Basic Tools
-Week 3-4:   Reconnaissance & OSINT
-Week 5-6:   Network Security & Attacks
-Week 7-8:   Web Application Security
-Week 9-10:  System Security & Privilege Escalation
-Week 11-12: Advanced Topics & Career Planning
+Week 1-2:   Fundamentals, Lab Setup, Basic Tools + Crypto Foundations
+Week 3-4:   Reconnaissance & OSINT + Classical Cryptography
+Week 5-6:   Network Security & Attacks + Modern Cryptography
+Week 7-8:   Web Application Security + Advanced Crypto
+Week 9-10:  System Security & Privilege Escalation + Cryptanalysis
+Week 11-12: Advanced Topics & Career Planning + Quantum Crypto
 ```
 
 ## 🎯 Hands-On Practice Projects
@@ -170,20 +193,23 @@ Week 11-12: Advanced Topics & Career Planning
 ### Beginner Projects
 1. **Network Discovery**: Scan home network and document findings
 2. **Web Analysis**: Analyze security headers of popular websites
-3. **Password Security**: Test password strength and cracking
-4. **Basic Scripting**: Automate simple security tasks
+3. **Cryptographic Basics**: Implement classical ciphers and analyze them
+4. **Password Security**: Test password strength and cracking
+5. **Basic Scripting**: Automate simple security tasks
 
 ### Intermediate Projects
 1. **Vulnerability Assessment**: Complete assessment of test environment
 2. **Web Application Testing**: Find and exploit common vulnerabilities
-3. **Network Penetration**: Gain access to segmented network
-4. **Incident Simulation**: Practice incident response procedures
+3. **Cryptographic Implementation**: Build secure encryption systems
+4. **Network Penetration**: Gain access to segmented network
+5. **Incident Simulation**: Practice incident response procedures
 
 ### Advanced Projects
 1. **Red Team Exercise**: Full-scale attack simulation
-2. **Tool Development**: Create custom security tools
-3. **Research Project**: Investigate new attack vectors
-4. **Mentoring**: Teach others and contribute to community
+2. **Cryptographic Research**: Develop post-quantum algorithms
+3. **Tool Development**: Create custom security tools
+4. **Research Project**: Investigate new attack vectors
+5. **Mentoring**: Teach others and contribute to community
 
 ## 🏆 Certification Roadmap
 
@@ -281,6 +307,7 @@ This repository is actively maintained and updated:
 - **v1.1** (2024): Added detailed technical notes
 - **v1.2** (2024): Enhanced career guidance
 - **v2.0** (2025): Complete restructure with advanced topics
+- **v2.1** (2025): Added comprehensive cryptography mastery guide
 
 ## 📊 Learning Metrics & Assessment
 
@@ -290,16 +317,19 @@ This repository is actively maintained and updated:
 - [ ] Understand legal and ethical boundaries
 - [ ] Can set up basic lab environment
 - [ ] Familiar with security concepts and terminology
+- [ ] Understand cryptographic fundamentals
 - [ ] Completed basic reconnaissance exercises
 
 #### Intermediate Skills ✓
 - [ ] Proficient with major security tools
 - [ ] Can identify common vulnerabilities
+- [ ] Implemented modern cryptographic algorithms
 - [ ] Completed vulnerable application challenges
 - [ ] Understanding of defensive techniques
 
 #### Advanced Capabilities ✓
 - [ ] Can conduct full penetration tests
+- [ ] Mastered advanced cryptography and cryptanalysis
 - [ ] Developed custom security tools
 - [ ] Contributed to security community
 - [ ] Mentoring others in cybersecurity
