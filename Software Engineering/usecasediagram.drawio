@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Hospital Management System Use Case Diagram" id="hospital-use-case-diagram">
-        <mxGraphModel dx="3729" dy="1609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1900" math="0" shadow="0">
+        <mxGraphModel dx="3552" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1900" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -34,13 +34,13 @@
                 <mxCell id="lab-actor" value="Laboratory&#xa;System" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="1600" y="750" width="60" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="user-actor" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;strokeColor=#2c3e50;fillColor=#ecf0f1;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+                <mxCell id="user-actor" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;strokeColor=#2c3e50;fillColor=#ecf0f1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="-570" y="530" width="60" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="healthcare-provider" value="Healthcare&#xa;Provider" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;strokeColor=#27ae60;fillColor=#d5e8d4;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+                <mxCell id="healthcare-provider" value="Healthcare&#xa;Provider" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;strokeColor=#27ae60;fillColor=#d5e8d4;fontSize=16;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="-540" y="950" width="60" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="external-system" value="External&#xa;System" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;strokeColor=#f39c12;fillColor=#fff2cc;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+                <mxCell id="external-system" value="External&#xa;System" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;strokeColor=#f39c12;fillColor=#fff2cc;fontSize=16;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="1800" y="550" width="60" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="register-patient" value="Register as&#xa;Patient" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontStyle=1;" parent="1" vertex="1">
@@ -319,55 +319,55 @@
                         <mxPoint x="1080" y="900" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="user-patient-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#2c3e50;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="user-actor" target="patient-actor">
+                <mxCell id="user-patient-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#2c3e50;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="user-actor" target="patient-actor" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="120" y="960" as="sourcePoint"/>
                         <mxPoint x="170" y="910" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="user-doctor-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#2c3e50;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="user-actor" target="doctor-actor">
+                <mxCell id="user-doctor-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#2c3e50;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="user-actor" target="doctor-actor" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="120" y="960" as="sourcePoint"/>
                         <mxPoint x="170" y="450" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="user-nurse-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#2c3e50;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="user-actor" target="nurse-actor">
+                <mxCell id="user-nurse-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#2c3e50;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="user-actor" target="nurse-actor" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="120" y="960" as="sourcePoint"/>
                         <mxPoint x="170" y="590" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="user-admin-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#2c3e50;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="user-actor" target="admin-actor">
+                <mxCell id="user-admin-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#2c3e50;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="user-actor" target="admin-actor" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="120" y="960" as="sourcePoint"/>
                         <mxPoint x="170" y="730" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="healthcare-doctor-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#27ae60;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="healthcare-provider" target="doctor-actor">
+                <mxCell id="healthcare-doctor-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#27ae60;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="healthcare-provider" target="doctor-actor" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="120" y="1360" as="sourcePoint"/>
                         <mxPoint x="170" y="450" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="healthcare-nurse-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#27ae60;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="healthcare-provider" target="nurse-actor">
+                <mxCell id="healthcare-nurse-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#27ae60;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="healthcare-provider" target="nurse-actor" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="120" y="1360" as="sourcePoint"/>
                         <mxPoint x="170" y="590" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="external-insurance-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#f39c12;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="external-system" target="insurance-actor">
+                <mxCell id="external-insurance-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#f39c12;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="external-system" target="insurance-actor" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1790" y="560" as="sourcePoint"/>
                         <mxPoint x="1740" y="400" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="external-pharmacy-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#f39c12;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="external-system" target="pharmacy-actor">
+                <mxCell id="external-pharmacy-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#f39c12;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="external-system" target="pharmacy-actor" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1790" y="560" as="sourcePoint"/>
                         <mxPoint x="1740" y="610" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="external-lab-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#f39c12;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="external-system" target="lab-actor">
+                <mxCell id="external-lab-generalization" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=4;strokeColor=#f39c12;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="external-system" target="lab-actor" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1790" y="560" as="sourcePoint"/>
                         <mxPoint x="1740" y="750" as="targetPoint"/>
@@ -379,7 +379,7 @@
                 <mxCell id="legend-title" value="ULTRA-ENHANCED LEGEND - Line Types and Meanings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#0066cc;" parent="1" vertex="1">
                     <mxGeometry x="60" y="1460" width="980" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend-subtitle1" value="COLOR CODING BY ACTOR TYPE:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+                <mxCell id="legend-subtitle1" value="COLOR CODING BY ACTOR TYPE:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="70" y="1510" width="300" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="legend-patient" value="Patient&#xa;Use Cases" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="1" vertex="1">
@@ -400,7 +400,7 @@
                 <mxCell id="legend-external" value="External&#xa;Systems" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="630" y="1540" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend-subtitle2" value="CONNECTION LINE TYPES AND THEIR MEANINGS:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+                <mxCell id="legend-subtitle2" value="CONNECTION LINE TYPES AND THEIR MEANINGS:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="70" y="1600" width="450" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="legend-association-line" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;strokeColor=#333333;" parent="1" edge="1">
@@ -412,7 +412,7 @@
                 <mxCell id="legend-association-text" value="SOLID BLACK LINE = ASSOCIATION" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="170" y="1635" width="250" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend-association-desc" value="• Direct relationship between actor and use case&#xa;• Means: &#39;Actor CAN perform this use case&#39;&#xa;• Example: Patient → Book Appointment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="legend-association-desc" value="• Direct relationship between actor and use case&#xa;• Means: &#39;Actor CAN perform this use case&#39;&#xa;• Example: Patient → Book Appointment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="170" y="1655" width="300" height="45" as="geometry"/>
                 </mxCell>
                 <mxCell id="legend-include-line" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeWidth=5;strokeColor=#ff6b35;fontSize=12;fontStyle=1;" parent="1" edge="1">
@@ -424,7 +424,7 @@
                 <mxCell id="legend-include-text" value="ORANGE DASHED + &lt;&lt;include&gt;&gt; = INCLUDE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="610" y="1635" width="300" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend-include-desc" value="• MANDATORY dependency relationship&#xa;• Means: &#39;Use case A MUST include use case B&#39;&#xa;• Example: Book Appointment INCLUDES Login System&#xa;• Cannot book appointment without logging in first!" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="legend-include-desc" value="• MANDATORY dependency relationship&#xa;• Means: &#39;Use case A MUST include use case B&#39;&#xa;• Example: Book Appointment INCLUDES Login System&#xa;• Cannot book appointment without logging in first!" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="610" y="1655" width="350" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="legend-extend-line" value="&lt;&lt;extend&gt;&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeWidth=5;strokeColor=#8b5cf6;fontSize=12;fontStyle=1;" parent="1" edge="1">
@@ -436,28 +436,28 @@
                 <mxCell id="legend-extend-text" value="PURPLE DASHED + &lt;&lt;extend&gt;&gt; = EXTEND" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="170" y="1720" width="300" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend-extend-desc" value="• OPTIONAL extension relationship&#xa;• Means: &#39;Use case A MAY extend to use case B&#39;&#xa;• Example: Diagnose Patient EXTENDS Order Tests&#xa;• Doctor may or may not order tests during diagnosis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="legend-extend-desc" value="• OPTIONAL extension relationship&#xa;• Means: &#39;Use case A MAY extend to use case B&#39;&#xa;• Example: Diagnose Patient EXTENDS Order Tests&#xa;• Doctor may or may not order tests during diagnosis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="170" y="1740" width="350" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend-generalization-line" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=5;strokeColor=#2c3e50;" edge="1" parent="1">
+                <mxCell id="legend-generalization-line" value="" style="endArrow=block;endFill=0;html=1;rounded=0;strokeWidth=5;strokeColor=#2c3e50;" parent="1" edge="1">
                     <mxGeometry width="80" relative="1" as="geometry">
                         <mxPoint x="520" y="1730" as="sourcePoint"/>
                         <mxPoint x="600" y="1730" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="legend-generalization-text" value="DARK ARROW + HOLLOW HEAD = GENERALIZATION" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+                <mxCell id="legend-generalization-text" value="DARK ARROW + HOLLOW HEAD = GENERALIZATION" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="610" y="1720" width="350" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend-generalization-desc" value="• INHERITANCE relationship between actors&#xa;• Means: &#39;Actor A IS-A specialized type of Actor B&#39;&#xa;• Example: Doctor IS-A User, Doctor IS-A Healthcare Provider&#xa;• Child actors inherit all parent actor capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="legend-generalization-desc" value="• INHERITANCE relationship between actors&#xa;• Means: &#39;Actor A IS-A specialized type of Actor B&#39;&#xa;• Example: Doctor IS-A User, Doctor IS-A Healthcare Provider&#xa;• Child actors inherit all parent actor capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="610" y="1740" width="350" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend-spacing-title" value="ULTRA-WIDE SPACING + GENERALIZATION:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#0066cc;" vertex="1" parent="1">
+                <mxCell id="legend-spacing-title" value="ULTRA-WIDE SPACING + GENERALIZATION:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#0066cc;" parent="1" vertex="1">
                     <mxGeometry x="70" y="1810" width="400" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend-spacing-desc" value="✓ 300px spacing between use case circles (was 200px)&#xa;✓ Larger ellipses: 180x100px (was 160x90px)&#xa;✓ Strategic placement to minimize line crossings&#xa;✓ Thick 5px lines for better visibility&#xa;✓ Parent actors (User, Healthcare Provider, External System)&#xa;✓ Generalization arrows show inheritance relationships" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#0066cc;" vertex="1" parent="1">
+                <mxCell id="legend-spacing-desc" value="✓ 300px spacing between use case circles (was 200px)&#xa;✓ Larger ellipses: 180x100px (was 160x90px)&#xa;✓ Strategic placement to minimize line crossings&#xa;✓ Thick 5px lines for better visibility&#xa;✓ Parent actors (User, Healthcare Provider, External System)&#xa;✓ Generalization arrows show inheritance relationships" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#0066cc;" parent="1" vertex="1">
                     <mxGeometry x="70" y="1835" width="450" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend-generalization-examples" value="GENERALIZATION EXAMPLES IN THIS DIAGRAM:&#xa;• User → Patient, Doctor, Nurse, Admin (all need login)&#xa;• Healthcare Provider → Doctor, Nurse (medical staff)&#xa;• External System → Insurance, Pharmacy, Lab (integration)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#27ae60;fontStyle=1;" vertex="1" parent="1">
+                <mxCell id="legend-generalization-examples" value="GENERALIZATION EXAMPLES IN THIS DIAGRAM:&#xa;• User → Patient, Doctor, Nurse, Admin (all need login)&#xa;• Healthcare Provider → Doctor, Nurse (medical staff)&#xa;• External System → Insurance, Pharmacy, Lab (integration)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#27ae60;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="520" y="1810" width="450" height="80" as="geometry"/>
                 </mxCell>
             </root>
